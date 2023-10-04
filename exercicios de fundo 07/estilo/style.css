@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkcyan;
+}
+header{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top:10vh;
+    padding-bottom: 10vh; /* IMPORTAMTE trabalhar com vh*/
+        /* isso significa que qualquer dection vai ocupar pelo menos 10% da tela, criando um efeito visual interesamte, ja que a sections de tamanhos diferentes*/
+
+    line-height: 2em;   /*espassamento entre as linhas*/
+    padding-left: 30px;
+}
+section.normal{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+section.imagem{
+    background-color: rgb(32, 32, 32);
+    color: #ffffff;
+    }
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 400px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:50px;
+}
