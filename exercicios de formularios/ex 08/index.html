@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- nao funciona, acho que e o innerHTML q esta errado -->
+    <form action="#" method="post" autocomplete="on">
+        <p>
+            <label for="ini">numero:</label>
+            <input type="number" name="numero" id="ini" required oninput="isoma.innerHTML = hunder(ini.value) + hunder(init2.value)">
+        </p>
+        <p>
+            <label for="init2">numero 2:</label>
+            <input type="number" name="numero" id="init2" min="0" max="50" oninput="isoma.innerHTML = hunder(ini.value) + hunder(init2.value)">
+        </p>
+        <p>
+            <label for="isoma">soma:</label>
+            <output id="isoma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="apagar">
+        </p>
+    </form>
+
+</body>
+</html>
