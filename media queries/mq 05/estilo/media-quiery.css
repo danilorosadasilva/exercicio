@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* typycal tevice breakpoints
+------------------------------
+pequenas tela: até 600px
+celular:       de 600px até 768px
+tablet:        768px ate 992px
+tv:            992px ate 1200px
+grandes telas: acima de 12000px
+*/
+
+
+/* ----------------------------------- */
+
+
+/* essa parte do codigo nao esta funcionando devido o burguer n estar no codigo
+obs: culpa minha */
+@media screen and (min-width: 768px) {
+    ifburguer{
+        display: none;
+    }
+    main{
+        width: 738px;
+    }
+}
